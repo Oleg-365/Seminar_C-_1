@@ -2,3 +2,14 @@
 //	456 -> 6
 //	782 -> 2
 //	918 -> 8
+
+Console.WriteLine("Введите трехзначное число: ");
+int number = int.Parse(Console.ReadLine()!);
+if (number >= 100 && number<1000)
+{
+    Console.Write("Последняя цифра числа: " + number%10);
+}
+else
+{
+    Console.Write("Вы ввели неверное значение");
+}
