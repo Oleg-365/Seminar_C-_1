@@ -21,3 +21,4 @@ void Main()
     int b2 = FindSecondDigitNumber(rand1); //последняя цифра рандомного числа.
     FindLargesNumber(a2, b2);
 
+}
