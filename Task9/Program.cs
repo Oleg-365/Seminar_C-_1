@@ -22,3 +22,30 @@ void Main()
     FindLargesNumber(a2, b2);
 
 }
+
+void FindLargesNumber(int a, int b)
+{
+    if (a > b)
+    {
+        Console.WriteLine("Наибольшее цифра числа = " + a);
+    }
+    else if (a < b)
+    {
+        Console.WriteLine("Наибольшее цифра числа = " + b);
+    }
+    else
+    {
+        Console.WriteLine("Числа равны");
+    }
+}
+int FindFirstDigitNumber(int r)
+{
+    int result = r / 10;
+    return result;
+}
+
+int FindSecondDigitNumber(int r)
+{
+    int result = r % 10;
+    return result;
+}

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task9\\Task9.csproj",
+      "projectUniqueName": "E:\\Моя учеба\\4. Знакомство с языками программирования C#\\Seminar_C#_1\\Task9\\Task9.csproj",
       "projectName": "Task9",
-      "projectPath": "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task9\\Task9.csproj",
+      "projectPath": "E:\\Моя учеба\\4. Знакомство с языками программирования C#\\Seminar_C#_1\\Task9\\Task9.csproj",
       "packagesPath": "C:\\Users\\Олег\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task9\\obj\\",
+      "outputPath": "E:\\Моя учеба\\4. Знакомство с языками программирования C#\\Seminar_C#_1\\Task9\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Олег\\AppData\\Roaming\\NuGet\\NuGet.Config"
