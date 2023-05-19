@@ -23,3 +23,30 @@ int Number(int num)
 
 int num = Promt();
 Console.WriteLine($"Количество цифр в числе {num} равно  {Number(num)}");
+
+// Вариант решения задачи:
+// int GetCount(int number)
+//{
+//    int count = 0;
+//
+//    if (number != 0)
+//    {
+//        while (number > 0 || number < 0)
+//        {
+//            number /= 10;
+//            count++;
+//        }
+//        return count;
+//    }
+//    return 1;
+//}
+
+//int Promt()
+//{
+//    Console.Write("Введите число: ");
+//    int userNum = int.Parse(Console.ReadLine());
+//    return userNum;
+//}
+
+//int num = Promt();
+//Console.WriteLine($"Количество цифр в {num}: {GetCount(num)}");
