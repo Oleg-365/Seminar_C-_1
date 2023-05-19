@@ -21,3 +21,29 @@ int GetSum(int limit)
 
 int num = Promt();
 Console.WriteLine($"Сумма чисел от 1 до {num} равна = {GetSum(num)}");
+
+
+//Main();
+
+//void Main()
+//{
+//    int num = Promt();
+//    Console.WriteLine($"Сумма чисел от 1 до {num} равна: {GetSum(num)}");
+//}
+
+//int Promt()
+//{
+//    Console.WriteLine("Введите число");
+//    int limit = int.Parse(Console.ReadLine());
+//    return limit;
+//}
+
+//int GetSum(int limit)
+//{
+//    int sum = 0;
+//   for (int i = 1; i <= limit; i++)
+//    {
+//        sum = sum + i;
+//    }
+//    return sum;
+
