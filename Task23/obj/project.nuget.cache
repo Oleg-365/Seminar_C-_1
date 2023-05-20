@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uIaZoabRi4h8JlUU8iRQymlfqZwdTTT1hc642nGHyldh6+65ONhgQX4bo/Gw/mFJcUuSD0J1wEIcrNTT54p0eg==",
+  "dgSpecHash": "JlMr7yrZ9MA0JoZ1EvHjt4tXXF0ut3z5/tvyDMluxPeFZ4EonBWe1r6f6Cw0sDwY+QIWvjddOFoKryR3bxKa8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Documents\\Seminar_C#_1\\Task23\\Task23.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Домашний ПК\\Documents\\Git\\Seminar_C#_1\\Task23\\Task23.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Домашний ПК\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Домашний ПК\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Домашний ПК\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Домашний ПК\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
   "logs": []
 }
