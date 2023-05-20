@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Олег\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task23\\Task23.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Documents\\Seminar_C#_1\\Task23\\Task23.csproj",
       "projectName": "Task23",
-      "projectPath": "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task23\\Task23.csproj",
-      "packagesPath": "C:\\Users\\Олег\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task23\\obj\\",
+      "projectPath": "C:\\Users\\admin\\Documents\\Seminar_C#_1\\Task23\\Task23.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\Documents\\Seminar_C#_1\\Task23\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Олег\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
