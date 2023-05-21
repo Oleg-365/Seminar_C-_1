@@ -5,22 +5,20 @@
 Main();
 
 void Main()
+
 {
-    //const int[] lengthArr = 8; 
-    const int[] lengthArr = 8;
-    RandArray(8);
-    PrintArr(lengthArr);
-    
+    int[] Arr = {1,1,1,1,1,1,1,1};
+    RandArray(Arr);
+    PrintArr(Arr);
 }
 
-int[] RandArray(int num)
+void RandArray(int[] num)
 {
-    int[] array = new int[num];
-    for (int i = 0; i < num; i++)
+    
+    for (int i = 0; i < num.Length; i++)
     {
-        array[i] = new Random().Next(0, 100);
+        num[i] = new Random().Next(0, 100);
     }
-    return array;
 }
    
 void PrintArr(int[] array)
@@ -29,6 +27,7 @@ void PrintArr(int[] array)
     {
         Console.Write($" [{array[i]}] ");
     }
-    Console.WriteLine();
-    
+    Console.WriteLine();  
 }
+   
+    
