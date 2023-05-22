@@ -57,40 +57,24 @@ int Sum(int Num, int length)
     return Summa;
 }
 
-//int Summa(int Num)
+//**********************************************
+// Эталлонное решение задачи
+//int Prompt (string message)
 //{
-//int Sum = 0;
-// int Summa1 = 0;
-// int Summa2 = 0;
-// int Summa3 = 0;
-// Sum = Summa1 + Summa2 + Summa3;
-
-// if (Num >= 11 || Num < 99)
-// {
-//     int tempC = Num / 10;
-//      int tempD = Num % 1;
-//     int Sum1 = 0;
-//      Sum1 = tempC + tempD;
-//     return Sum1;
-// }
-//  else if (Num >= 100 || Num < 999)
-// {
-//     int tempB = Num / 100;
-//     int tempC = Num / 10;
-//      int tempD = Num / 1;
-//     int Sum2 = 0;
-//      Sum2 = tempB + tempC + tempD;
-//     return Sum2;
-// }
-// else if (Num >= 1000 || Num < 9999)
-// {
-//     int tempA = Num / 1000;
-//      int tempB = Num / 100;
-//     int tempC = Num / 10;
-//     int tempD = Num / 1;
-//     int Sum3 = 0;
-//     Sum3 = tempA + tempB + tempC + tempD;
-//     return Sum3;
-// }
-//return Sum;
+//    System.Console.Write (message); //выводим приглашение ко вводу
+//    string readInput = System.Console.ReadLine(); //Вводим значение
+//    int result = int.Parse (readInput); //приводим к числу
+//    return result; // Возвращаем результат
 //}
+//int SumAllDigit(int number)
+//{
+//    int result = 0;
+//    while (number > 0)
+//    {
+//        result += number % 10;
+//        number = result / 10;
+//    }
+//    return result;
+//}
+//int number = ParallelMergeOptions ("Введите число: ");
+//System.Console.WriteLine ($"Сумма всех чисел в цифре {nubmer}={SumAllDigit (number)}");
