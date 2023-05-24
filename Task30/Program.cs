@@ -9,7 +9,7 @@ void Main()
     int start = PromptB();
     int end = PromptC();
     int[] array = GetArray(Size, start, end);           // Вызов метода заполнения массива случ-ми числами
-     //int[] array = GetArray(4, 100, 1000);
+  //int[] array = GetArray(4, 100, 1000);
     Console.Write($"Наш массив: ");
     PrintArray(array);                                  //Вывод массива на экран
     CountEvenNumbers(array);                            //Метод нахождения четных чисел в массиве
