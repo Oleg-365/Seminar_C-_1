@@ -23,18 +23,18 @@ int PromptA()                                           //Вызов метод�
 int PromptB()                                            //Вызов метода ввода начала массива
 {
     Console.Write("Введите начало массива: ");
-    int namberA = Convert.ToInt32(Console.ReadLine());
-    return namberA;
+    int numberA = Convert.ToInt32(Console.ReadLine());
+    return numberA;
 }
 int PromptC()                                            //Вызов метода ввода конца массива
 {
     Console.Write("Введите конец массива: ");
-    int namberB = Convert.ToInt32(Console.ReadLine());
-    return namberB;
+    int numberB = Convert.ToInt32(Console.ReadLine());
+    return numberB;
 }
 
 
-double MinMax(double[] array)
+double MinMax(double[] array)                             //метод нахождения разницы между макс и миним элементами массива 
 {
     double maxEl = array[0];
     double minEl = array[0];
@@ -51,13 +51,14 @@ double MinMax(double[] array)
         }
 
     }
-    Diff = maxEl - minEl;
+    Diff = Math.Round((maxEl - minEl),2);
+
     Console.WriteLine($"Разница между максимальным и минимальным числом = {Diff}.");
     return Diff;
 }
 double[] GetArray(double size, double numA, double numB)
 {
-    double[] res = new double [size];
+    double[] res = new double [(int)size];
     for (int i = 0; i < size; i++)
     {
         res[i] = Convert.ToDouble(new Random().Next(100, 1000)) / 100;
