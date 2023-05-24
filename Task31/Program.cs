@@ -11,6 +11,7 @@ void Main()
     int end = PromptC();                                //Вызов метода ввода конца массива
     int[] array = GetArray(Size, start, end);
     //int[] array = GetArray(6, 1, 5);
+    Console.Write($"Наш массив: ");
     PrintArray(array);                                  //Вывод массива на экран
     SumOfOddElements(array);                            // Метод вычисления суммы по нечетным позициям(индексам)
 }
