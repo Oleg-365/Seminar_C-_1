@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NhCmp/AhyGELqZVsdZ2cYGAqjD+HCEG/lKNKhhslxX3hfDgZXx3whnLiV8CenrGu+qFHwHpG2DfTrDrIU5wHvw==",
+  "dgSpecHash": "azS1rJUse+HI1RgIIBgmN0qbFtBajFzevVKTOXjfSHhzepIfjgUO329CZ46uCAV/BXCfZiGCLTSsuLyDvoq6NQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Домашний ПК\\Documents\\Git\\Seminar_C#_1\\Task32\\Task32.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Домашний ПК\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\Домашний ПК\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\Домашний ПК\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\Домашний ПК\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\admin\\Documents\\Seminar_C#_1\\Task32\\Task32.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

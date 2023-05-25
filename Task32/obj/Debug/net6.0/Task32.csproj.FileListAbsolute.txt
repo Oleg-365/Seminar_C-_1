@@ -28,3 +28,18 @@ C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task32\bin\Debug\net6.
 C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task32\bin\Debug\net6.0\Task32.pdb
 C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task32\obj\Debug\net6.0\Task32.genruntimeconfig.cache
 C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task32\obj\Debug\net6.0\ref\Task32.dll
+C:\Users\admin\Documents\Seminar_C#_1\Task32\bin\Debug\net6.0\Task32.exe
+C:\Users\admin\Documents\Seminar_C#_1\Task32\bin\Debug\net6.0\Task32.deps.json
+C:\Users\admin\Documents\Seminar_C#_1\Task32\bin\Debug\net6.0\Task32.runtimeconfig.json
+C:\Users\admin\Documents\Seminar_C#_1\Task32\bin\Debug\net6.0\Task32.dll
+C:\Users\admin\Documents\Seminar_C#_1\Task32\bin\Debug\net6.0\Task32.pdb
+C:\Users\admin\Documents\Seminar_C#_1\Task32\obj\Debug\net6.0\Task32.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\Seminar_C#_1\Task32\obj\Debug\net6.0\Task32.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Documents\Seminar_C#_1\Task32\obj\Debug\net6.0\Task32.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Seminar_C#_1\Task32\obj\Debug\net6.0\Task32.AssemblyInfo.cs
+C:\Users\admin\Documents\Seminar_C#_1\Task32\obj\Debug\net6.0\Task32.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Seminar_C#_1\Task32\obj\Debug\net6.0\Task32.dll
+C:\Users\admin\Documents\Seminar_C#_1\Task32\obj\Debug\net6.0\refint\Task32.dll
+C:\Users\admin\Documents\Seminar_C#_1\Task32\obj\Debug\net6.0\Task32.pdb
+C:\Users\admin\Documents\Seminar_C#_1\Task32\obj\Debug\net6.0\Task32.genruntimeconfig.cache
+C:\Users\admin\Documents\Seminar_C#_1\Task32\obj\Debug\net6.0\ref\Task32.dll

@@ -39,7 +39,7 @@ double MinMax(double[] array)                             //метод нахо�
     double maxEl = array[0];
     double minEl = array[0];
     double Diff = 0;
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < array.Length; i++)     
     {
         if (array[i] > maxEl)
         {
@@ -61,7 +61,7 @@ double[] GetArray(double size, double numA, double numB)
     double[] res = new double [(int)size];
     for (int i = 0; i < size; i++)
     {
-        res[i] = Convert.ToDouble(new Random().Next(100, 1000)) / 100;
+        res[i] = Convert.ToDouble(new Random().Next(100, 1000)) / 100; //res[i] = new Random().NextDoble()*100;
     }
     return res;
 }
