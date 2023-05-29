@@ -16,7 +16,7 @@ int Prompt(string messege)
 
 {
     Console.Write(messege);
-    int Number = int.Parse(Console.ReadLine());
+    int Number = int.Parse(Console.ReadLine()!);
     int findQuarter = Convert.ToInt32(Number);
     return findQuarter;
 }

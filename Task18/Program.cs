@@ -10,7 +10,7 @@ NumTable(n);
 int Promt(string message)
 {
     Console.Write(message);
-    int value = int.Parse(Console.ReadLine());
+    int value = int.Parse(Console.ReadLine()!);
     int numN = Convert.ToInt32(value);
     return Math.Abs(numN);
 }
