@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Documents\\Seminar_C#_1\\Task39\\Task39.csproj": {}
+    "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task39\\Task39.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Documents\\Seminar_C#_1\\Task39\\Task39.csproj": {
+    "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task39\\Task39.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Documents\\Seminar_C#_1\\Task39\\Task39.csproj",
+        "projectUniqueName": "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task39\\Task39.csproj",
         "projectName": "Task39",
-        "projectPath": "C:\\Users\\admin\\Documents\\Seminar_C#_1\\Task39\\Task39.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Documents\\Seminar_C#_1\\Task39\\obj\\",
+        "projectPath": "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task39\\Task39.csproj",
+        "packagesPath": "C:\\Users\\Олег\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task39\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Олег\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
