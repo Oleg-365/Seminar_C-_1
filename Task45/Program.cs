@@ -10,22 +10,22 @@ Main();
 void Main()
 {
 Console.Write("Введите количество строк массива: ");
-int rows = int.Parse(Console.ReadLine()!);             //ввод строк
+int rows = int.Parse(Console.ReadLine()!);              //Ввод строк
 
 Console.Write("Введите количество столбцов массива: ");
-int columns = int.Parse(Console.ReadLine()!);          //ввод столбцов
+int columns = int.Parse(Console.ReadLine()!);           //Ввод столбцов
 
 Console.Write("Введите начало массива: ");
-int start = int.Parse(Console.ReadLine()!);
+int start = int.Parse(Console.ReadLine()!);            //Ввод начала длинны массива
 
-Console.Write("Введите конец массива: ");
+Console.Write("Введите конец массива: ");               //Ввод конца длинны массива
 int end = int.Parse(Console.ReadLine()!);
 
-double[,] array = GetArray(rows, columns, start, end);             //заполнение двумерного массива
+double[,] array = GetArray(rows, columns, start, end);  //Вызов метода заполнение двумерного массива
 PrintArray(array);
 }
 
-double[,] GetArray(double m, double n, double minValue, double maxValue)
+double[,] GetArray(double m, double n, double minValue, double maxValue) //Метода заполнение двумерного массива
 {
     double[,] result = new double[(int)m, (int)n];
     for (int i = 0; i < m; i++)
@@ -38,7 +38,7 @@ double[,] GetArray(double m, double n, double minValue, double maxValue)
     return result;
 }
 
-void PrintArray(double[,] inArray)                         //печать двумерного массива
+void PrintArray(double[,] inArray)                         //Метод печати двумерного массива
 {  
     for (int i = 0; i < inArray.GetLength(0); i++)
     {
