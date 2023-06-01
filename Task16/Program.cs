@@ -1,7 +1,7 @@
 ﻿// Напишите программу, которая по заданному номеру четверти, показывает диапазон возможных координат точек в этой четверти (x и y).
 
 
-int quarter = Promt("Введите номер четверти: ");
+/*int quarter = Promt("Введите номер четверти: ");
 FindDiap(quarter);
 
 void FindDiap(int quart)
@@ -36,4 +36,4 @@ int Promt(string message)
     int value = int.Parse(Console.ReadLine());
     int findQuarter = Convert.ToInt32(value);
     return findQuarter;
-}
+}*/

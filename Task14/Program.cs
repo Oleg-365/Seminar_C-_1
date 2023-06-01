@@ -5,7 +5,7 @@
 //7 - да
 //1 - нет
 
-int Promt(string message)
+/*int Promt(string message)
 {
     System.Console.Write(message);
     string value = Console.ReadLine()!;
