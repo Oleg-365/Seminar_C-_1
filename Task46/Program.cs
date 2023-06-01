@@ -8,28 +8,32 @@
 
 [1,7] -> такого числа в массиве нет*/
 
-Console.Clear();
+Main();
 
-Console.Write("Введите количество строк массива: ");
-int rows = int.Parse(Console.ReadLine()!);              //Ввод строк
+void Main()
+{
+    Console.Clear();
+    int rows = Prompt("Введите количество строк массива: ");                    //Ввод строк
+    int columns = Prompt("Введите количество столбцов массива: ");              //Ввод столбцов
+    int start = Prompt("Введите начало массива: ");                             //Ввод начала длинны массива
+    int end = Prompt("Введите конец массива: ");                                //Ввод конца длинны массива
 
-Console.Write("Введите количество столбцов массива: ");
-int columns = int.Parse(Console.ReadLine()!);           //Ввод столбцов
+    int[,] array = GetArray(rows, columns, start, end);                         //Вызов метода заполнение двумерного массива
+    Console.WriteLine("Наш массив: ");
+    PrintArray(array);                                                          //Вызов метода печати массива
 
-Console.Write("Введите начало массива: ");
-int start = int.Parse(Console.ReadLine()!);            //Ввод начала длинны массива
+    SearchByCoordinates(array);
+}
 
-Console.Write("Введите конец массива: ");               //Ввод конца длинны массива
-int end = int.Parse(Console.ReadLine()!);
+int Prompt(string message)                                                      //Метод ввода данных
+{
+    Console.Write(message);
+    int value = Convert.ToInt32(Console.ReadLine());
+    return value;
+}
 
-int[,] array = GetArray(rows, columns, start, end);  //Вызов метода заполнение двумерного массива
 
-Console.WriteLine("Исходный массив: ");
-PrintArray(array);
-
-ComparingNumbers(array);
-
-int[,] GetArray(int m, int n, int minValue, int maxValue)
+int[,] GetArray(int m, int n, int minValue, int maxValue)                       //Метод заполнения двумерного массива
 {
     int[,] result = new int[m, n];
     for (int i = 0; i < m; i++)
@@ -42,36 +46,29 @@ int[,] GetArray(int m, int n, int minValue, int maxValue)
     return result;
 }
 
-void PrintArray(int[,] inArray)                         //печать двумерного массива
+void PrintArray(int[,] inArray)                                              //Метод печати двумерного массива
 {
     for (int i = 0; i < inArray.GetLength(0); i++)
     {
         for (int j = 0; j < inArray.GetLength(1); j++)
         {
-            Console.Write($"{inArray[i, j]} ");
+            Console.Write($"{inArray[i, j]}  ");
         }
         Console.WriteLine();
     }
 }
 
-void ComparingNumbers(int[,] userArray)
+void SearchByCoordinates(int[,] userArray)                                  //Метод поиска числа в массиве по координатам
 {
-    Console.Write("Введите число для нахождения в массиве: ");               //Ввод доп. числа для нахождения его в массиве
-    int number = int.Parse(Console.ReadLine()!);
-
-    foreach (int el in userArray)
+    Console.WriteLine("Введите координаты");
+    int position1 = Convert.ToInt32(Console.ReadLine());
+    int position2 = Convert.ToInt32(Console.ReadLine());
+    
+    if (position1 < 0 | position1 > userArray.GetLength(0) - 1 | position2 < 0 | position2 > userArray.GetLength(1) - 1)
+        Console.WriteLine("Такого числа нет!");
+    else
     {
-        if (el < 0 | el > userArray.GetLength(0) - 1 | el > userArray.GetLength(1) - 1)
-        {
-            Console.WriteLine($"Введенное число {number} отсутствует в данном массиве.");
-        }
-        else
-        {
-            Console.WriteLine($"Введенное число {number} есть в данном массиве.");
-            
-        }
+        object element = userArray.GetValue(position1, position2)!;
+        Console.Write($"Значение элемента массива = [{element}].");
     }
-    Console.WriteLine();
 }
-
-
