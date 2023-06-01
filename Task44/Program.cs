@@ -68,4 +68,5 @@ int[,] ProductBothArrays(int[,] arr1, int[,] arr2)
     return productArr;
 }
 
-2
+
+
