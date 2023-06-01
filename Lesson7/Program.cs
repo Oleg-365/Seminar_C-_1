@@ -22,4 +22,4 @@ FindWords("аисв", new char[3]); // char[3], char[4] и тд.*/
     Console.WriteLine($"{with} >>{on}");
     if (count > 1) Towers(some, on, with, count - 1);
 }
-Towers();
+Towers();*/

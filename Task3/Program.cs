@@ -9,4 +9,4 @@ while (start <= number)
 {
     Console.Write(start + " ");
     start++;
-}
+}*/
