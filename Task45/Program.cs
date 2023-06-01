@@ -9,42 +9,44 @@ Main();
 
 void Main()
 {
-Console.Write("Введите количество строк массива: ");
-int rows = int.Parse(Console.ReadLine()!);              //Ввод строк
+    Console.Clear();
+    int rows = Prompt("Введите количество строк массива: ");                    //Ввод строк
+    int columns = Prompt("Введите количество столбцов массива: ");              //Ввод столбцов
+    int start = Prompt("Введите начало массива: ");                             //Ввод начала длинны массива
+    int end = Prompt("Введите конец массива: ");                                //Ввод конца длинны массива
+    
 
-Console.Write("Введите количество столбцов массива: ");
-int columns = int.Parse(Console.ReadLine()!);           //Ввод столбцов
-
-Console.Write("Введите начало массива: ");
-int start = int.Parse(Console.ReadLine()!);            //Ввод начала длинны массива
-
-Console.Write("Введите конец массива: ");               //Ввод конца длинны массива
-int end = int.Parse(Console.ReadLine()!);
-
-double[,] array = GetArray(rows, columns, start, end);  //Вызов метода заполнение двумерного массива
-PrintArray(array);
+    double[,] array = GetArray(rows, columns, start, end);                          //Вызов метода заполнение двумерного массива
+    PrintArray(array);
 }
 
-double[,] GetArray(double m, double n, double minValue, double maxValue) //Метода заполнение двумерного массива
+int Prompt(string message)                                                      //Метод ввода данных
+{
+    Console.Write(message);
+    int value = Convert.ToInt32(Console.ReadLine());
+    return value;
+}
+
+double[,] GetArray(double m, double n, double minValue, double maxValue)        //Метода заполнение двумерного массива
 {
     double[,] result = new double[(int)m, (int)n];
     for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
         {
-            result[i, j]= Convert.ToDouble(new Random().Next(100, 1000)) / 100;
+            result[i, j] = Convert.ToDouble(new Random().Next(100, 1000)) / 100;
         }
     }
     return result;
 }
 
-void PrintArray(double[,] inArray)                         //Метод печати двумерного массива
-{  
+void PrintArray(double[,] inArray)                                              //Метод печати двумерного массива
+{
     for (int i = 0; i < inArray.GetLength(0); i++)
     {
         for (int j = 0; j < inArray.GetLength(1); j++)
         {
-            Console.Write($"{inArray[i, j]} ");
+            Console.Write($"{inArray[i, j]}  ");
         }
         Console.WriteLine();
     }
