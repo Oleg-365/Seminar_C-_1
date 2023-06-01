@@ -1,5 +1,5 @@
 ﻿
-
+/*
 int x1 = Promt("Введите координату Xa: ");
 int y1 = Promt("Введите координату Ya: ");
 int x2 = Promt("Введите координату Xb: ");
@@ -21,3 +21,4 @@ int Promt(string message)
     int coord = Convert.ToInt32(value);
     return coord;
 }
+*/

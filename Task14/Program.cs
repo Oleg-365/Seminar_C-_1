@@ -41,4 +41,4 @@ int weekDay = Promt("Введите день недели > ");
     {
         Console.WriteLine("Придется поработать");
     }
-}
+}*/

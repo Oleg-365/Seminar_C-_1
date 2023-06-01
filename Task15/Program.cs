@@ -42,3 +42,4 @@ void FindQuarterPlane(int x, int y)
         Console.WriteLine("IV четверть");
     }
 }
+*/
