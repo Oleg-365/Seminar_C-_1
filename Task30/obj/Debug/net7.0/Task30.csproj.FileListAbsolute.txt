@@ -1,0 +1,15 @@
+C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task30\obj\Debug\net7.0\Task30.csproj.AssemblyReference.cache
+C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task30\obj\Debug\net7.0\Task30.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task30\obj\Debug\net7.0\Task30.AssemblyInfoInputs.cache
+C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task30\obj\Debug\net7.0\Task30.AssemblyInfo.cs
+C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task30\obj\Debug\net7.0\Task30.csproj.CoreCompileInputs.cache
+C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task30\bin\Debug\net7.0\Task30.exe
+C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task30\bin\Debug\net7.0\Task30.deps.json
+C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task30\bin\Debug\net7.0\Task30.runtimeconfig.json
+C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task30\bin\Debug\net7.0\Task30.dll
+C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task30\bin\Debug\net7.0\Task30.pdb
+C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task30\obj\Debug\net7.0\Task30.dll
+C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task30\obj\Debug\net7.0\refint\Task30.dll
+C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task30\obj\Debug\net7.0\Task30.pdb
+C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task30\obj\Debug\net7.0\Task30.genruntimeconfig.cache
+C:\Users\Домашний ПК\Documents\Git\Seminar_C#_1\Task30\obj\Debug\net7.0\ref\Task30.dll
