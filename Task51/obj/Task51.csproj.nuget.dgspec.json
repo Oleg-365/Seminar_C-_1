@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task51\\Task51.csproj": {}
+    "C:\\Users\\Домашний ПК\\Documents\\Git\\Seminar_C#_1\\Task51\\Task51.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task51\\Task51.csproj": {
+    "C:\\Users\\Домашний ПК\\Documents\\Git\\Seminar_C#_1\\Task51\\Task51.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task51\\Task51.csproj",
+        "projectUniqueName": "C:\\Users\\Домашний ПК\\Documents\\Git\\Seminar_C#_1\\Task51\\Task51.csproj",
         "projectName": "Task51",
-        "projectPath": "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task51\\Task51.csproj",
-        "packagesPath": "C:\\Users\\Олег\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Олег\\Documents\\Seminar_C#_1\\Task51\\obj\\",
+        "projectPath": "C:\\Users\\Домашний ПК\\Documents\\Git\\Seminar_C#_1\\Task51\\Task51.csproj",
+        "packagesPath": "C:\\Users\\Домашний ПК\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Домашний ПК\\Documents\\Git\\Seminar_C#_1\\Task51\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Олег\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Домашний ПК\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
