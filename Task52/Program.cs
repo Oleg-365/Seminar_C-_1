@@ -19,12 +19,12 @@ void Main()
     int[,] array = GetArray(rows, columns, start, end);                         //Вызов метода заполнение двумерного массива
     Console.WriteLine("Наш массив: ");
     PrintArray(array);                                                          //Вызов метода печати массива
-
     SumOfRowElements(array);
-    int[] sortArray = GetOneArray(array);
     Console.WriteLine();
-    Console.WriteLine(string.Join(",", sortArray));
-    //MinSumRow(array);                                                          //Вызов метода подсчета ср. ариф. суммы в столбцах
+    MinSumElements(array);                                                     //Вызов метода нахождения min суммы строки
+
+
+    //MinSumRow(array);                                                          
 }
 
 int Prompt(string message)                                                      //Метод ввода данных
@@ -74,23 +74,29 @@ void SumOfRowElements(int[,] userArray)                                        /
 }
 
 
-/*void MinSumRow(int[,] array, int index)
+void MinSumElements(int[,] array)                                           //Метода подсчета мин суммы в строках
 {
-    int[] res = new int[array.GetLength(0)];
-    int sum = 0;
-    Console.Write($"Сумма элементов каждой строки: ");
+    int minRow = 0;
+    int minSumRow = 0;
+    int sumRow = 0;
+    for (int i = 0; i < array.GetLength(1); i++)
+    {
+        minRow += array[0, i];
+    }
     for (int i = 0; i < array.GetLength(0); i++)
     {
-        sum += array[i, 0];
-    }
-    Console.Write($"{sum}; ");
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            sumRow += array[i, j];
+        }
 
-    int index = 0;
-    int minSum = 1;
-    if (minSum[index] < sum)
-    {
-        minSum = sum;
+        if (sumRow < minRow)
+        {
+            minRow = sumRow;
+            minSumRow = i;
+        }
+        sumRow = 0;
     }
-    Console.Write($"Строка с наименьшей суммой = {minSum}.");
-}*/
-
+    Console.WriteLine();
+    Console.Write($"Строка с наименьшей суммой элементов = {minSumRow + 1}.");
+}
