@@ -79,7 +79,7 @@ void MinSumElements(int[,] array)                                           //М
     int minRow = 0;
     int minSumRow = 0;
     int sumRow = 0;
-    for (int i = 0; i < array.GetLength(1); i++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
         minRow += array[0, i];
     }
@@ -97,6 +97,5 @@ void MinSumElements(int[,] array)                                           //М
         }
         sumRow = 0;
     }
-    Console.WriteLine();
     Console.Write($"Строка с наименьшей суммой элементов = {minSumRow + 1}.");
 }
