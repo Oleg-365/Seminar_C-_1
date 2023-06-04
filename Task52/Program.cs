@@ -19,12 +19,9 @@ void Main()
     int[,] array = GetArray(rows, columns, start, end);                         //Вызов метода заполнение двумерного массива
     Console.WriteLine("Наш массив: ");
     PrintArray(array);                                                          //Вызов метода печати массива
-    SumOfRowElements(array);
+    SumOfRowElements(array);                                                    //Вызов метода подсчета суммы в строках
     Console.WriteLine();
-    MinSumElements(array);                                                     //Вызов метода нахождения min суммы строки
-
-
-    //MinSumRow(array);                                                          
+    MinSumElements(array);                                                     //Вызов метода нахождения min суммы строки                                                         
 }
 
 int Prompt(string message)                                                      //Метод ввода данных
